@@ -2,7 +2,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-
+/**
+ * synchronized
+ * 1.synchronized methods
+ * 2.synchronized statements
+ */
 public class ProdcuceCosumer1 {
 
 	private static final int MAX = 100;

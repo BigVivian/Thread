@@ -5,7 +5,11 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-
+/**
+ * Lock & Condition
+ * 1.Lock.lock();    Lock.unlock();
+ * 2.Condition.await();  Condition.signal();
+ */
 public class ProdcuceCosumer2 {
 
 	private static final int MAX = 100;

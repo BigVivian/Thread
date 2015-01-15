@@ -3,7 +3,10 @@ import java.io.PipedReader;
 import java.io.PipedWriter;
 import java.util.Random;
 
-
+/**
+ * PipeWriter.write(?) & PipeReader.read()
+ *
+ */
 public class ProdcuceCosumer4 {
 
 	private static final int MAX = 100;
@@ -54,7 +57,6 @@ public class ProdcuceCosumer4 {
 				try {
 					System.out.println("reader ：" + pr.read());
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}

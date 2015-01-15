@@ -1,7 +1,9 @@
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-
+/**
+ * BlockingQueue<Object>
+ */
 public class ProdcuceCosumer3 {
 
 	private static final int MAX = 100;
@@ -25,7 +27,6 @@ public class ProdcuceCosumer3 {
 					queue.put(new Object());
 					System.out.println("put one , the queue size is : " + queue.size());
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
